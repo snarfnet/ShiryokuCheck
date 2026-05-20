@@ -13,6 +13,7 @@
 		AA000007 = {isa = PBXBuildFile; fileRef = AB000007; };
 		AA000008 = {isa = PBXBuildFile; fileRef = AB000008; };
 		AA000009 = {isa = PBXBuildFile; productRef = AD000001; };
+		AA000010 = {isa = PBXBuildFile; fileRef = AB000009; };
 		AB000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiryokuCheckApp.swift; sourceTree = "<group>"; };
 		AB000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB000003 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionTestView.swift; sourceTree = "<group>"; };
@@ -26,7 +27,7 @@
 		AB000011 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB000020 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShiryokuCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC000001 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (AA000009); runOnlyForDeploymentPostprocessing = 0; };
-		AC000002 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (AA000001,AA000002,AA000003,AA000004,AA000005,AA000006,AA000007,AA000008); runOnlyForDeploymentPostprocessing = 0; };
+		AC000002 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (AA000001,AA000002,AA000003,AA000004,AA000005,AA000006,AA000007,AA000008,AA000010); runOnlyForDeploymentPostprocessing = 0; };
 		AC000003 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
 		AE000001 = {isa = PBXGroup; children = (AE000002, AE000010); sourceTree = "<group>"; };
 		AE000002 = {isa = PBXGroup; children = (AB000001,AB000002,AE000003,AE000004,AE000005,AE000006,AB000010,AB000011); path = ShiryokuCheck; sourceTree = "<group>"; };
