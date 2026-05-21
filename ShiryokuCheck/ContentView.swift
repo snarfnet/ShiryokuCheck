@@ -93,8 +93,7 @@ struct ContentView: View {
 
                 Spacer()
 
-                BannerAdView(adUnitID: AdMobManager.shared.bannerAdUnitID)
-                    .frame(height: 50)
+                Spacer().frame(height: 50)
             }
         }
         .sheet(isPresented: $showHistory) {

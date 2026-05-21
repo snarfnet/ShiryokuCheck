@@ -86,9 +86,7 @@ struct VisionTestView: View {
                 directionButtons
                     .padding(.bottom, 8)
 
-                // Ad
-                BannerAdView(adUnitID: AdMobManager.shared.bannerAdUnitID)
-                    .frame(height: 50)
+                Spacer().frame(height: 50)
             }
 
             // Feedback overlay

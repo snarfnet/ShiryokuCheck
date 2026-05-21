@@ -77,8 +77,7 @@ struct ResultView: View {
                     .padding(.horizontal, 30)
                     .padding(.bottom, 8)
 
-                BannerAdView(adUnitID: AdMobManager.shared.bannerAdUnitID)
-                    .frame(height: 50)
+                Spacer().frame(height: 50)
             }
         }
     }
